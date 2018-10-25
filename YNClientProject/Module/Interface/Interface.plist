@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>getInterfaces</key>
+	<dict/>
+	<key>request_base</key>
+	<string>https://api.yannihealth.com/</string>
+	<key>request_base_test</key>
+	<string>https://api.yannihealth.com/</string>
+	<key>postInterfaces</key>
+	<dict>
+		<key>user_password_edit</key>
+		<string>service/v1/resetPass</string>
+		<key>register</key>
+		<string>service/v1/register</string>
+		<key>user_auth_code</key>
+		<string>service/v1/smsValidate</string>
+		<key>code</key>
+		<string>service/v1/sendSMS</string>
+		<key>user_login</key>
+		<string>service/v1/login</string>
+		<key>update_user_info</key>
+		<string>service/v1/userInfoSave</string>
+		<key>get_user_info</key>
+		<string>service/v1/userInfo</string>
+		<key>get_news_list</key>
+		<string>service/v1/postsList</string>
+		<key>get_drug_list</key>
+		<string>service/v1/drugboxList</string>
+		<key>get_drug_detail</key>
+		<string>service/v1/drugboxInfo</string>
+		<key>get_health_type</key>
+		<string>service/v1/drugboxCateList</string>
+		<key>get_home_data</key>
+		<string>service/v1/initIndex</string>
+	</dict>
+</dict>
+</plist>
